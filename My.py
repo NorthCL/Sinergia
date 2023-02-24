@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # In[66]:
 
 
-filename = 'data2.csv'
+filename = 'data.csv'
 df = pd.read_csv(filename, encoding='Windows-1251', header = None)
 df = df.rename(columns={0:'Навык', 1:'Вакансии',2:'Соискатели'})
 
